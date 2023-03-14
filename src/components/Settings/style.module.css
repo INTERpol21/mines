@@ -1,0 +1,38 @@
+.Settings {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  width: 33.3%;
+  height: 40px;
+  margin-bottom: 5px;
+  color: var(--text-primary-color);
+  background-color: var(--button-bg-color);
+  border: 2px solid var(--button-border-color);
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 200ms;
+}
+
+
+
+
+.button:not(.isActive):hover {
+  background-color: var(--button-bg-active-color);
+}
+
+.button.isActive {
+  background-color: var(--button-bg-active-color);
+  cursor: default;
+}
+
+
+.button:hover {
+  background-color: var(--button-bg-hover-color);
+}
+
+
